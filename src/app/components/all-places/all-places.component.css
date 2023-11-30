@@ -1,0 +1,9 @@
+.place-row {
+  background: aliceblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.place-row:hover {
+  box-shadow: 25px 25px 40px -30px rgba(0, 0, 0, 0.71);
+}
