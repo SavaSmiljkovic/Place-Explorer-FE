@@ -1,0 +1,17 @@
+.navbar {
+  height: 7vh;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100vw;
+  border-bottom: 1px solid var(--space-black);
+}
+
+.nav-title {
+  color: var(--space-black);
+  font-size: 2rem;
+}
+
+.home {
+  cursor: pointer;
+}

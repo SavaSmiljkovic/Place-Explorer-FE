@@ -1,0 +1,81 @@
+<footer>
+  <div>
+    <section>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-4 col-sm-12 text-center p-4">
+            <h6 class="text-uppercase fw-bold mb-5">
+              Links
+            </h6>
+
+            <p>
+              <a class="text-reset url-link"
+                 (click)="generalService.notInScope('About Us')">
+                About Us
+              </a>
+            </p>
+
+            <p>
+              <a class="text-reset url-link"
+                 (click)="generalService.notInScope('Contact Us')">
+                Contact Us
+              </a>
+            </p>
+
+            <p>
+              <a class="text-reset url-link"
+                 (click)="generalService.notInScope('Explore Places')">
+                Explore Places
+              </a>
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 mt-4 mb-0 pt-4 pb-4 d-flex justify-content-center align-items-center central-logo">
+            <img src="assets/logo.png"
+                 alt="logo">
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 mb-md-0 text-center p-4">
+            <h6 class="text-uppercase fw-bold mb-5">
+              Contact
+            </h6>
+
+            <p>
+              <em class="bi bi-house-door-fill me-2"></em>
+              <a class="text-reset"
+                 href="{{headquartersLocation}}"
+                 target="_blank">
+                Headquarters
+              </a>
+            </p>
+
+            <p>
+              <em class="bi-envelope-fill me-2"></em>
+              <a class="text-reset"
+                 href="mailto:placeexplorer@gmail.com"
+                 target="_blank">
+                placeexplorer@gmail.com
+              </a>
+            </p>
+
+            <p>
+              <em class="bi bi-telephone-fill me-2"></em>
+              +41 12 345 67 89
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center copyright p-3">
+      <span>© 2023 </span>
+      <a class="text-reset"
+         href="http://localhost:8080">
+        PLACE EXPLORER
+      </a>
+    </div>
+
+  </div>
+</footer>

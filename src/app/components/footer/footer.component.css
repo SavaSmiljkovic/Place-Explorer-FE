@@ -1,0 +1,31 @@
+footer {
+  border-top: 1px solid var(--space-black);
+}
+
+.url-link {
+  cursor: pointer;
+}
+
+.footer-title {
+  font-size: 2rem;
+}
+
+.central-logo {
+  background: var(--space-black);
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border: 1px solid var(--space-black);
+}
+
+.central-logo img {
+  width: 35%;
+}
+
+.text-reset {
+  text-decoration: none;
+}
+
+.copyright {
+  background: var(--space-black);
+  color: var(--lemon-white);
+}
